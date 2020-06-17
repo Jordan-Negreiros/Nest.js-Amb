@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Listagem de categories</h1>
+
+<ul>
+    {{#forEach categories }}
+        <li>{{ id }} - {{ name }} - {{created_at}}</li>
+    {{/forEach}}
+</ul>
+
+</body>
+</html>
